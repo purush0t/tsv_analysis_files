@@ -14,10 +14,10 @@ for m in [51]:
     else:
         
         #use -> one( to concat output from script 1)
-        r_dir = f"C:/Users/BIRYANI_31/Desktop/tsv_analysis/script_result_0.8_1/{k}_{m}/{k}_{m}_unq.tsv"
+        r_dir = f"tsv_analysis/script_result_0.8_1/{k}_{m}/{k}_{m}_unq.tsv"
         
         #use -> two (to concat output from this script)
-        # r_dir = f"C:/Users/BIRYANI_31/Desktop/tsv_analysis/unq_gene_0.8_1/uni_gt{m}.tsv"
+        # r_dir = f"tsv_analysis/unq_gene_0.8_1/uni_gt{m}.tsv"
         
         df1 = pd.read_csv(r_dir, sep="\t")
         print(f"reading file:{r_dir}")
