@@ -34,8 +34,8 @@ for i in [43,44,45,46,47]:
       else:
         start_time=time.time()
         #gettin output tsv file path
-        file_n1 = f"C:/Users/BIRYANI_31/Desktop/b31_results/output{i}_1.tsv"
-        file_n2 = f"C:/Users/BIRYANI_31/Desktop/b31_results/output{j}_1.tsv"
+        file_n1 = f"b31_results/output{i}_1.tsv"
+        file_n2 = f"b31_results/output{j}_1.tsv"
 
         # file -> data frames
         df1 = pd.read_csv(file_n1, sep="\t",dtype=d_spec)
