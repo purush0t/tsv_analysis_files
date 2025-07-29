@@ -10,7 +10,7 @@ d_spec = {"chr" : object,"strand" :object,"gene_ID" : object,
 "sj5_cov_split" : int,"sj3start" : int,"sj3end" : int,"sj3_cov_nonsplit" : int,
 "sj3_cov_split" : int,"score" : float}
 
-"""tsv_p = "C:/Users/BIRYANI_31/Desktop/b31_results"
+"""tsv_p = "./b31_results"
 for s in range(43,53):
     
     df1 = pd.read_csv(f"output{s}_1.tsv",sep="\t",dtype=d_spec)
@@ -19,7 +19,7 @@ for s in range(43,53):
 # print(p_df)"""
 
 # Directory containing the CSV files
-directory = "C:/Users/BIRYANI_31/Desktop/b31_results"
+directory = "./b31_results"
 
 # Initialize an empty dictionary to store data frames
 dfs = {}
